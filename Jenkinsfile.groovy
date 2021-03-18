@@ -8,7 +8,7 @@ properties([
 
 node {
 	stage("Pull Repo"){
-		checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/farrukh90/infrastructure.git']]])
+		checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/turanmehmet/infrastructure.git']]])
 }
 stage("Format"){
 		timestamps {
