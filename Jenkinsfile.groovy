@@ -49,7 +49,7 @@ stage("Format"){
 		slackSend color: '#BADA55', message: 'Hello, World!'
 	}
 	stage("Send Email to Support"){
-		mail bcc: '', body: 'Running', cc: 'support@company.com', from: '', replyTo: '', subject: 'Test', to: 'farrukhsadykov@gmail.com'
+		mail bcc: '', body: 'Running', cc: 'support@company.com', from: '', replyTo: '', subject: 'Test', to: 'mehmet.72.turan@gmail.com'
 	}
     stage("Sleep"){
 		sleep 60000000
